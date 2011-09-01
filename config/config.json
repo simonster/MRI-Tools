@@ -1,0 +1,22 @@
+{
+	"General":{
+		"DataDir":"/media/Data/Ozzy/Data",
+		"Debug":true
+	},
+	"Unpack":{
+		"DICOMDir":"/media/Data/Ozzy/DICOM",
+		"Sequences":{
+			"localizerprimate_lg_FOV":{"subdir":"scout", "format":"nii", "stemname":"f"},
+			"localizerprimate":{"subdir":"scout", "format":"nii", "stemname":"f"},
+			"MPRAGE_500um_iso_95-4":[
+				{"subdir":"mri/raw", "format":"nii", "stemname":"mprage"},
+				{"subdir":"mri/orig", "format":"nii", "stemname":"mprage"}
+			]
+		},
+		"CorrectForSphinxPosition":false
+	},
+	"Anatomical":{
+		"RegistrationTemplate":null,
+		"Format":"nii"
+	}
+}
